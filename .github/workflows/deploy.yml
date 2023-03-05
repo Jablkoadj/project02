@@ -54,5 +54,5 @@ jobs:
           PORT: 3000
         run: |        
           echo "MONGODB_DB_NAME: $MONGODB_DB_NAME"
-          echo "MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}"
+          echo "MONGODB_USERNAME: ${{ needs.secrets.MONGODB_USERNAME }}"
           echo "${{ env.PORT }}"
