@@ -19,7 +19,7 @@ jobs:
       # cluster0.uyvwicy.mongodb.net
       MONGODB_USERNAME: root
       # ${{ secrets.MONGODB_USERNAME }}
-      MONGODB_PASSWORD: examle
+      MONGODB_PASSWORD: example
       # ${{ secrets.MONGODB_PASSWORD }}
       PORT: 8080
     services:
